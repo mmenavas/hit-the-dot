@@ -1,4 +1,4 @@
-angular.module('hitTheDot', [])
+angular.module('hitTheDot', ['ngTouch'])
   .controller('htdController', ['$scope', '$timeout', function($scope, $timeout) {
     $scope.dots = [];
 
