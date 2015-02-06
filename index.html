@@ -1,0 +1,23 @@
+<!doctype html>
+<html ng-app="hitTheDot">
+  <head>
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="js/app.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <div id="field" ng-controller="htdController" ng-init="init()">
+      <header>
+        <h2>Hit the dot!</h2>
+        <form ng-submit="start()">
+          <input class="btn-primary" type="submit" value="Start">
+        </form>
+      </header>
+      <ul class="unstyled">
+        <li ng-repeat="dot in dots">
+          <span class="has-dot-{{dot.isRevealed}} hit-{{dot.isHit}}" ng-click="hit()">.</span>
+        </li>
+      </ul>
+    </div>
+  </body>
+</html>

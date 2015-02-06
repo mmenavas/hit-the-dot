@@ -1,0 +1,21 @@
+{
+  "name": "Shuffling Cups",
+  "version": "0.0.1",
+  "authors": [
+    "Maximo Mena <maximo.mena@gmail.com>"
+  ],
+  "main": "index.html",
+  "license": "MIT",
+  "homepage": "http://www.iammaximo.com/shuffling-cups/",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.3.12"
+  }
+}
