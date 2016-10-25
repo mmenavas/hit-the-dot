@@ -1,6 +1,6 @@
 # Hit The Dot
 
-This is a basic game I wrotee to learn AngularJS.
+This is a basic game I wrote to learn AngularJS (work in progress).
 
 Play it on http://mmenavas.github.io/hit-the-dot/
 
